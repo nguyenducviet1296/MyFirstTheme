@@ -1,0 +1,111 @@
+.content-post-meta {
+  font-size: 13px;
+  .content-post-title {
+    font-size: 32px;
+    text-transform: uppercase;
+  }
+  .list-category {
+    a {
+      color: #38B7EE;
+      &:active, &:hover {
+        color: #38B7EE;
+      }
+    }
+  }
+  .meta-reply {
+    @extend .list-category;
+  }
+}
+
+.content-post-title {
+  margin-bottom: 0;
+}
+
+.widget_related-post-grid {
+  .widget-title {
+    text-transform: uppercase;
+    border-bottom: 1px solid #E2E2E2;
+    margin-bottom: 0;
+  }
+  .related-post {
+    ul {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      li {
+        border-bottom: 1px solid #E2E2E2;
+        width: 300px;
+        height: 100px;
+        padding: 5px 15px 10px 0px;
+        .related-site-main {
+          display: flex;
+          margin-bottom: 10px;
+          .related-post-thumbnails {
+            width: 65px;
+            height: 65px;
+            display: block;
+          }
+          .related-post-links {
+            padding-left: 10px;
+            padding-top: 12px;
+            .link-posts {
+              color: #2a2a2a;
+              font-weight: bolder;
+              font-size: 14px;
+              text-transform: uppercase;
+              &:hover {
+                color: #38B7EE;
+                transition: all 0.3s linear;
+              }
+            }
+            .date-posts {
+              color: #999;
+              font-size: 12px;
+            }
+          }
+        }
+
+      }
+    }
+  }
+}
+
+.related-post-reply {
+  a {
+    font-size: 12px;
+    color: #999;
+    &:hover, &:active {
+      color: #38B7EE;
+    }
+  }
+}
+
+.post-no-border {
+  border-bottom: none;
+}
+
+.widget_widget-info-author-gavinmeme {
+  h2 {
+    padding-top: 20px;
+  }
+}
+
+.info-author {
+  display: flex;
+  background: #EEEEEE;
+  border: 1px solid #E1e1e1;
+  padding: 20px 15px 10px 20px;
+  .detail-author {
+    padding-left: 20px;
+    .info-author-name {
+      text-transform: capitalize;
+      margin: 0px;
+      font-size: 18px;
+      font-weight: bolder;
+    }
+    .biographical-aithor {
+      font-size: 15px;
+    }
+  }
+}

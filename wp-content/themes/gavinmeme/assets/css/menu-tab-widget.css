@@ -1,0 +1,62 @@
+.menutab-widget-gavinmeme {
+  border: 1px solid #E4E4E4; }
+  .menutab-widget-gavinmeme .ul-title-menutab {
+    list-style: none !important;
+    display: flex;
+    margin: 0;
+    padding: 0; }
+    .menutab-widget-gavinmeme .ul-title-menutab .item-title-1, .menutab-widget-gavinmeme .ul-title-menutab .item-title-2 {
+      background: #f0f0f0;
+      width: 50%;
+      border-bottom: 1px solid #E4E4E4;
+      text-align: center;
+      padding: 10px 0px; }
+      .menutab-widget-gavinmeme .ul-title-menutab .item-title-1:hover a, .menutab-widget-gavinmeme .ul-title-menutab .item-title-2:hover a {
+        transition: all 0.3s linear;
+        color: #38B7EE; }
+      .menutab-widget-gavinmeme .ul-title-menutab .item-title-1 a, .menutab-widget-gavinmeme .ul-title-menutab .item-title-2 a {
+        width: 100%;
+        padding: 10px 30px;
+        font-size: 14px;
+        font-weight: bolder;
+        color: #2a2a2a;
+        cursor: pointer; }
+    .menutab-widget-gavinmeme .ul-title-menutab .item-title-2 {
+      border-left: 1px solid #E4E4E4; }
+      .menutab-widget-gavinmeme .ul-title-menutab .item-title-2 a {
+        padding: 10px 37px; }
+  .menutab-widget-gavinmeme .first-post-menutab ul, .menutab-widget-gavinmeme .recent-post-menutab ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+    .menutab-widget-gavinmeme .first-post-menutab ul li, .menutab-widget-gavinmeme .recent-post-menutab ul li {
+      display: flex;
+      padding: 5px 15px 10px 15px;
+      margin-bottom: 5px; }
+      .menutab-widget-gavinmeme .first-post-menutab ul li:not(:last-child), .menutab-widget-gavinmeme .recent-post-menutab ul li:not(:last-child) {
+        border-bottom: 1px solid #E2E2E2; }
+      .menutab-widget-gavinmeme .first-post-menutab ul li .menutab-thumbnails, .menutab-widget-gavinmeme .recent-post-menutab ul li .menutab-thumbnails {
+        display: block; }
+        .menutab-widget-gavinmeme .first-post-menutab ul li .menutab-thumbnails .post-thumbnail, .menutab-widget-gavinmeme .recent-post-menutab ul li .menutab-thumbnails .post-thumbnail {
+          margin: 0; }
+          .menutab-widget-gavinmeme .first-post-menutab ul li .menutab-thumbnails .post-thumbnail img, .menutab-widget-gavinmeme .recent-post-menutab ul li .menutab-thumbnails .post-thumbnail img {
+            margin: 0;
+            width: 65px;
+            height: 65px; }
+      .menutab-widget-gavinmeme .first-post-menutab ul li .menutab-links, .menutab-widget-gavinmeme .recent-post-menutab ul li .menutab-links {
+        padding-left: 10px; }
+        .menutab-widget-gavinmeme .first-post-menutab ul li .menutab-links a, .menutab-widget-gavinmeme .recent-post-menutab ul li .menutab-links a {
+          color: #2a2a2a;
+          font-weight: bolder;
+          font-size: 14px; }
+          .menutab-widget-gavinmeme .first-post-menutab ul li .menutab-links a:hover, .menutab-widget-gavinmeme .recent-post-menutab ul li .menutab-links a:hover {
+            color: #38B7EE;
+            transition: all 0.3s linear; }
+        .menutab-widget-gavinmeme .first-post-menutab ul li .menutab-links .date-posts, .menutab-widget-gavinmeme .recent-post-menutab ul li .menutab-links .date-posts {
+          margin-top: 30px;
+          color: #999;
+          font-size: 13px; }
+
+.active-menutab {
+  background: white !important;
+  border-bottom: none !important; }

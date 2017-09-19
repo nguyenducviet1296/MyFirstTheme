@@ -1,0 +1,22 @@
+.search-form {
+  width: 285px;
+  color: #959595; }
+  .search-form .search-field {
+    width: 285px;
+    font-size: 13px;
+    height: 38px;
+    border-radius: 0;
+    background: #F5F5F5;
+    padding: 10px; }
+  .search-form .search-submit {
+    background: #F5F5F5;
+    position: absolute;
+    border: none;
+    padding: 2px 0 2px 6px;
+    border-radius: 0;
+    border-left: 1px solid #D8D8D8;
+    margin-left: 250px;
+    margin-top: -29px;
+    z-index: 1111;
+    font-size: 18px;
+    color: #959595; }

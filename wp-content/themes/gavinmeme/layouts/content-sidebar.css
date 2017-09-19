@@ -1,0 +1,41 @@
+/*
+ * Theme Name: GavinMeMe
+ *
+ * Layout: Content-Sidebar
+ *
+ * Learn more: https://developer.wordpress.org/themes/basics/template-files/
+*/
+
+.content-area {
+	float: left;
+	margin: 0 -25% 0 0;
+	width: 620px;
+}
+.site-main {
+	margin-bottom: 20px;
+}
+.site-content .widget-area {
+	float: right;
+	overflow: hidden;
+	width: 300px;
+	padding-left: 15px;
+}
+.site-footer {
+	clear: both;
+	width: 100%;
+}
+.site-content{
+	width: 980px;
+	margin: 0 auto;
+	background: #fff;
+	padding: 10px 25px;
+	/*box-shadow: 0px 0px 10px rgba(50, 50, 50, 0.17);*/
+
+	box-shadow: 5px 0 10px -4px rgba(50, 50, 50, 0.17),-6.5px 0 5px -4px rgba(50, 50, 50, 0.17);
+
+}
+a , a:active{
+	text-decoration: none;
+}
+
+

@@ -1,0 +1,51 @@
+.tagcloud {
+    margin-top: -15px;
+}
+
+.tagcloud a {
+    background: #38B7EE;
+    color: white;
+    font-size: 14px !important;
+    padding: 0 5px;
+    margin-bottom: 5px;
+    margin-right: 2px;
+    display: inline-block;
+}
+
+.tagcloud a:hover {
+    background: #2a2a2a;
+    transition: all 0.3s linear;
+}
+
+#recent-posts-3 h2 {
+    margin-bottom: 5px;
+}
+
+#recent-posts-3 ul {
+    margin-left: 20px;
+    padding: 0;
+    list-style: square;
+}
+
+#recent-posts-3 ul li {
+    margin-bottom: 10px;
+}
+
+#recent-posts-3 ul li a {
+    color: black;
+}
+
+#recent-posts-3 ul li a:hover {
+    color: #38B7EE;
+    transition: all 0.2s linear;
+}
+
+.wpt_widget_content ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.wpt_widget_content ul li a:hover {
+    color: #38B7EE;
+    transition: all 0.2s linear;
+}

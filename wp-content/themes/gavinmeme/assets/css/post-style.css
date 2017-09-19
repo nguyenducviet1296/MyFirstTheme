@@ -1,0 +1,76 @@
+.content-post-meta {
+  font-size: 13px; }
+  .content-post-meta .content-post-title {
+    font-size: 32px;
+    text-transform: uppercase; }
+  .content-post-meta .list-category a, .content-post-meta .meta-reply a {
+    color: #38B7EE; }
+    .content-post-meta .list-category a:active, .content-post-meta .meta-reply a:active, .content-post-meta .list-category a:hover, .content-post-meta .meta-reply a:hover {
+      color: #38B7EE; }
+
+.content-post-title {
+  margin-bottom: 0; }
+
+.widget_related-post-grid .widget-title {
+  text-transform: uppercase;
+  border-bottom: 1px solid #E2E2E2;
+  margin-bottom: 0; }
+
+.widget_related-post-grid .related-post ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+  .widget_related-post-grid .related-post ul li {
+    border-bottom: 1px solid #E2E2E2;
+    width: 300px;
+    height: 100px;
+    padding: 5px 15px 10px 0px; }
+    .widget_related-post-grid .related-post ul li .related-site-main {
+      display: flex;
+      margin-bottom: 10px; }
+      .widget_related-post-grid .related-post ul li .related-site-main .related-post-thumbnails {
+        width: 65px;
+        height: 65px;
+        display: block; }
+      .widget_related-post-grid .related-post ul li .related-site-main .related-post-links {
+        padding-left: 10px;
+        padding-top: 12px; }
+        .widget_related-post-grid .related-post ul li .related-site-main .related-post-links .link-posts {
+          color: #2a2a2a;
+          font-weight: bolder;
+          font-size: 14px;
+          text-transform: uppercase; }
+          .widget_related-post-grid .related-post ul li .related-site-main .related-post-links .link-posts:hover {
+            color: #38B7EE;
+            transition: all 0.3s linear; }
+        .widget_related-post-grid .related-post ul li .related-site-main .related-post-links .date-posts {
+          color: #999;
+          font-size: 12px; }
+
+.related-post-reply a {
+  font-size: 12px;
+  color: #999; }
+  .related-post-reply a:hover, .related-post-reply a:active {
+    color: #38B7EE; }
+
+.post-no-border {
+  border-bottom: none; }
+
+.widget_widget-info-author-gavinmeme h2 {
+  padding-top: 20px; }
+
+.info-author {
+  display: flex;
+  background: #EEEEEE;
+  border: 1px solid #E1e1e1;
+  padding: 20px 15px 10px 20px; }
+  .info-author .detail-author {
+    padding-left: 20px; }
+    .info-author .detail-author .info-author-name {
+      text-transform: capitalize;
+      margin: 0px;
+      font-size: 18px;
+      font-weight: bolder; }
+    .info-author .detail-author .biographical-aithor {
+      font-size: 15px; }
